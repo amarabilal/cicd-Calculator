@@ -4,6 +4,9 @@ FROM python:3.10-alpine AS builder
 # Set working directory
 WORKDIR /app
 
+# Install build dependencies required for psutil and other packages
+RUN apk add --no-cache gcc python3-dev musl-dev linux-headers
+
 # Copy only requirements first (layer caching)
 COPY requirements.txt .
 
