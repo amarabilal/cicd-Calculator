@@ -4,7 +4,6 @@
 
 # Projet CI/CD sécurisé – Application Python *Calculator*
 
-**Auteur :** Bilal Amara
 
 **Année :** 2025 – 2026
 
